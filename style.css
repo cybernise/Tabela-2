@@ -4,7 +4,44 @@ h1{text-align: center;
 
 table{
     margin: auto;
-    width: 40%;
-    border-collapse: collapse;
+    width: 80%;
+   
+    border-collapse: separate;
+        border-spacing: 0;
+        border-color: #616161;
+        border-width: 2px;
+        border-style: solid;
 }
+    
+th,td {
+    border: 1px solid rgb(206, 206, 206);
+    padding: 8px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+    
+th {
+    background-color: #616161;
+    border: #616161;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+.cab{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.times {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.num {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    background-color: #fff6f6;
+    border-collapse: collapse; border-spacing: 0;
+}
+
 
